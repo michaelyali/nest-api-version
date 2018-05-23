@@ -1,0 +1,17 @@
+language: node_js
+
+node_js:
+ - "8"
+ - "9"
+ - "10"
+
+before_script:
+ - npm i -g npm@latest
+
+install:
+ - npm i
+
+script:
+ - npm run test:e2e
+
+after_success: npm run coverage
