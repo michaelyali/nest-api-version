@@ -1,6 +1,6 @@
 {
   "name": "@nestjsx/api-version",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Nest api version (global prefix) guard",
   "scripts": {
     "clean": "rimraf build",
