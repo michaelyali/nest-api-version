@@ -1,4 +1,4 @@
-import { ReflectMetadata } from '@nestjs/common';
+import { SetMetadata } from '@nestjs/common';
 
 export const ApiVersion = (...versions: string[]) =>
-  ReflectMetadata('apiVersion', versions);
+  SetMetadata('apiVersion', versions);
