@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "description": "Nest api version (global prefix) guard",
   "scripts": {
+    "clean": "rimraf build",
     "prepare": "npm run build",
     "lint": "tslint --project .",
     "test:e2e": "node_modules/.bin/jest --verbose --config ./test/jest-e2e.json",
-    "clean": "cd build && rm -rf `ls | grep -v \"LICENSE\\|package.json\\|README.md\"`",
     "build": "npm run clean && node_modules/.bin/tsc"
   },
   "dependencies": {
@@ -23,6 +23,7 @@
     "@types/supertest": "^2.0.8",
     "coveralls": "^3.0.9",
     "jest": "^25.1.0",
+    "rimraf": "^3.0.1",
     "supertest": "^4.0.2",
     "ts-jest": "^25.0.0",
     "tslint": "^5.10.0",
