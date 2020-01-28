@@ -3,29 +3,29 @@
   "version": "0.1.0",
   "description": "Nest api version (global prefix) guard",
   "scripts": {
+    "prepare": "npm run build",
     "lint": "tslint --project .",
-    "test:e2e":
-      "node_modules/.bin/jest --verbose --config ./test/jest-e2e.json",
-    "clean":
-      "cd build && rm -rf `ls | grep -v \"LICENSE\\|package.json\\|README.md\"`",
+    "test:e2e": "node_modules/.bin/jest --verbose --config ./test/jest-e2e.json",
+    "clean": "cd build && rm -rf `ls | grep -v \"LICENSE\\|package.json\\|README.md\"`",
     "build": "npm run clean && node_modules/.bin/tsc"
   },
   "dependencies": {
-    "@nestjs/common": "^5.0.0",
-    "@nestjs/core": "^5.0.0",
-    "@nestjs/testing": "^5.0.0",
-    "reflect-metadata": "^0.1.12",
-    "rxjs": "^6.0.0"
+    "@nestjs/common": "6.11.4",
+    "@nestjs/core": "6.11.4",
+    "@nestjs/platform-express": "6.11.4",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.4"
   },
   "devDependencies": {
-    "@types/jest": "^22.2.3",
-    "@types/node": "^10.1.1",
-    "@types/supertest": "^2.0.4",
-    "coveralls": "^3.0.1",
-    "jest": "^22.4.4",
-    "supertest": "^3.0.0",
-    "ts-jest": "^22.4.5",
+    "@nestjs/testing": "^6.11.4",
+    "@types/jest": "^25.1.0",
+    "@types/node": "^10.17.13",
+    "@types/supertest": "^2.0.8",
+    "coveralls": "^3.0.9",
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2",
+    "ts-jest": "^25.0.0",
     "tslint": "^5.10.0",
-    "typescript": "^2.8.3"
+    "typescript": "^3.7.2"
   }
 }

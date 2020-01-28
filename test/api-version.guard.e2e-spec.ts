@@ -1,9 +1,9 @@
 import * as request from 'supertest';
-import { Test } from '@nestjs/testing';
+import { Test, TestingModule } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
 import { APP_GUARD } from '@nestjs/core';
 import { MockController } from './mock.controller';
-import { ApiVersionGuard } from '../src/api-version.guard';
+import { ApiVersionGuard } from '../src';
 
 describe('ApiVersionGuard (e2e)', () => {
   let app: INestApplication;

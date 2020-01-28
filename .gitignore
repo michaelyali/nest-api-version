@@ -1,7 +1,15 @@
 # dependencies
 /node_modules
+
+# Logs
+logs
+*.log
+yarn-debug.log*
 yarn-error.log
 npm-debug.log
+
+# Build
+dist
 
 # IDE
 /.idea
