@@ -1,1 +1,1 @@
-export declare const ApiVersion: (...versions: string[]) => (target: object, key?: any, descriptor?: any) => any;
+export declare const ApiVersion: (...versions: string[]) => import("@nestjs/common").CustomDecorator<string>;

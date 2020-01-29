@@ -1,5 +1,5 @@
 import { Controller, Get } from '@nestjs/common';
-import { ApiVersion } from '../src/api-version.decorator';
+import { ApiVersion } from '../src';
 
 @Controller()
 export class MockController {
