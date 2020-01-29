@@ -10,7 +10,6 @@ npm-debug.log
 
 # Build
 dist
-build
 
 # IDE
 /.idea
