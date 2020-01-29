@@ -2,7 +2,7 @@
   "name": "@nestjsx/api-version",
   "version": "0.2.0",
   "description": "Nest api version (global prefix) guard",
-  "main": "build/index.ts",
+  "main": "build/index.js",
   "types": "build/index.d.ts",
   "repository": {
     "type": "git",
