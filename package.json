@@ -2,6 +2,13 @@
   "name": "@nestjsx/api-version",
   "version": "0.2.0",
   "description": "Nest api version (global prefix) guard",
+  "main": "build/index.ts",
+  "types": "build/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zMotivat0r/nest-api-version.git"
+  },
+  "license": "MIT",
   "scripts": {
     "clean": "rimraf build",
     "prepare": "npm run build",
